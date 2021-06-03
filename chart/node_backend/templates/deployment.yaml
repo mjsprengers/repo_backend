@@ -35,10 +35,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
           - name: {{ .Values.env.variablename }}
-            valueFrom:
-              secretKeyRef:
-                name: {{ .Values.env.secretname }}
-                key: {{ .Values.env.key }}
+            value: {{ .Values.env.key }}
           ports:
             - name: http
               containerPort: 80
