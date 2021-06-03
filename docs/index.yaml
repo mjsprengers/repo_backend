@@ -3,12 +3,12 @@ entries:
   nodetest:
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2021-06-03T16:15:43.556696+02:00"
+    created: "2021-06-03T16:32:03.580309+02:00"
     description: A Helm chart for Kubernetes
-    digest: 42793da605f3c36a10156b96fdccc0f21bfcec3e4829cd811fd9431702552eb0
+    digest: 4ea53b81a28711b65ecc01dcca279b7564528880982027bdc18f5455f97ff536
     name: nodetest
     type: application
     urls:
-    - https://mjsprengers.github.io/node_backend/nodetest-0.0.1.tgz
+    - https://mjsprengers.github.io/repo_backend/nodetest-0.0.1.tgz
     version: 0.0.1
-generated: "2021-06-03T16:15:43.556028+02:00"
+generated: "2021-06-03T16:32:03.579694+02:00"
