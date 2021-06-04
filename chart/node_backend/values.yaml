@@ -13,7 +13,8 @@ image:
 
 env:
     variablename: HSAPIKEY
-    key: "613ac64d-c65a-4bca-a6da-7af9c5a6fdf1"
+    secretname: hsapikey
+    key: hsapikey
 
 
 imagePullSecrets: []
